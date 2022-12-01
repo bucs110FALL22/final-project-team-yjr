@@ -1,6 +1,6 @@
 from assets import loser.png
 
-class winner():
+class loser():
   def image():
     image = pygame.image.load('loser.py')
     image = pygame.transform.scale(image, (1203, 696))

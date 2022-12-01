@@ -3,7 +3,7 @@ class Controller:
   
   def __init__(self):
     #setup pygame data
-    
+    pygame.init()
   def mainloop(self):
     #select state loop
     

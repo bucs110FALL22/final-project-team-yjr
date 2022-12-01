@@ -1,5 +1,5 @@
 import pygame 
-
+from assets.bush import bush
 
 bush_img = pygame.image.load('bush.png').convert_alpha()
 
@@ -30,8 +30,8 @@ class bush_button():
         self.clicked = True
       if pygame.mouse.get_pressed()[0] == 0:
         self.clicked = False
-    background():
-    wolf.py()
+
+    
     pygame.display.flip
     pygame.time.wait(100)
     
@@ -41,8 +41,21 @@ class bush_button():
   def bushes(self):
     positions = [pos1, pos2, pos3, pos4, pos5, pos6, pos7, pos8]
     for i in positions: 
-      surface.blit(bush_img, (self.polygon.x, self.polygon.y))
+      screen.blit(bush_img, (self.polygon.x, self.polygon.y))
+  button_1 = bush_button()
 
+mouse(self, surface)
+  screen.blit(pos1,(500,500))
+  running = True
+  while running:
+    for event in pygame.event.get():
+      if event.type == pygame.QUIT:
+        running = False
+
+    screen.blit(pos1,(500,500))
+  pygame.display.flip
+pygame.quit()
+  
   
   
   

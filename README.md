@@ -1,8 +1,8 @@
 :warning: Everything between << >> needs to be replaced (remove << >> after replacing)
 # CS110 Project Proposal
-# << Project Title >>
+# Werewolf Hunting
 ## CS 110 Final Project
-### << Semester, Year >>
+### Fall 2022 
 ### [Assignment Description](https://docs.google.com/document/d/1H4R6yLL7som1lglyXWZ04RvTp_RvRFCCBn6sqv-82ps/edit?usp=sharing)
 
 << [[repl](https://replit.com/join/xrlgxcopqq-yongyin21)](#) >>
@@ -61,6 +61,17 @@ The Project is broken down into the following file structure:
 ## Tasks and Responsibilities 
 
    * Outline the team member roles and who was responsible for each class/method, both individual and collaborative.
+   * Raphael
+     * hearthero.py
+     * heartwolf.py
+     * outcomelose.py
+     * outcome.win.py
+     * start.py
+     * wolf.py
+    *Yong
+     * background.py
+    *Collaborative
+     * bush.py
 
 ## Testing
 

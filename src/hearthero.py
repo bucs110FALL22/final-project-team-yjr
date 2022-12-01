@@ -17,6 +17,7 @@ class lives():
       screen.blit(heart2, (65,67))
     if player_wrong3 == True:
       screen.blit(heart2, (55,67))
+      #outcomelose.py here
       
     
     
